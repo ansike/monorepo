@@ -1,0 +1,16 @@
+{
+  "name": "@ansiked/node-static-server",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
